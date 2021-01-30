@@ -26,5 +26,5 @@ import {either} from "https://raw.githubusercontent.com/tree-annotation/tao-stre
 
 // ...
 
-console.log(Stream(parse("hello, world!")).next()) // prints `hello, world!`
+either(stream, a, b, c) // returns the value of the first pattern that matches the `stream`: `a`, `b`, or `c` or `undefined` if none matches
 ```
